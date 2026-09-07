@@ -416,7 +416,7 @@ img { max-width: 100%; display: block; }
   width: max-content;
   gap: 20px;
   padding: 0 20px;
-  animation: marquee-scroll 34s linear infinite;
+  animation: marquee-scroll 64s linear infinite;
 }
 .marquee:hover .marquee-track { animation-play-state: paused; }
 .marquee-track img {
