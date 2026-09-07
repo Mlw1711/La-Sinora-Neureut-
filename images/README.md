@@ -1,10 +1,8 @@
 # Bilder
 
-Hier kommen die echten Fotos rein, sobald sie da sind. Aktuell nutzt die Seite an diesen Stellen Platzhalter (📷 „Foto folgt“):
-
-- **Hero/Logo:** optional ein Logo-Bild (aktuell Text-Logo „La Signora“)
-- **Über uns:** 1 Bild (`.about-image` in `index.html`) – z. B. Innenraum oder Küchenchef
-- **Galerie:** 6 Bilder (`.gallery-item` in `index.html`) – z. B. Pizza aus dem Steinofen, Gastraum, Gerichte, Terrasse
+- **Hero:** ✅ `hero.jpg` – eingebunden als Hintergrundbild in `css/style.css` (`.hero`)
+- **Über uns:** 1 Bild (`.about-image` in `index.html`) – noch Platzhalter, z. B. Innenraum oder Küchenchef
+- **Galerie:** 6 Bilder (`.gallery-item` in `index.html`) – noch Platzhalter, z. B. Pizza aus dem Steinofen, Gastraum, Gerichte, Terrasse
 
 Empfehlung: Bilder im JPG/WebP-Format, querformatig, mind. 1200 px breit, komprimiert (< 500 KB pro Bild) für schnelle Ladezeiten.
 

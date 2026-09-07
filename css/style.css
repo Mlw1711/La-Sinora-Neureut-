@@ -198,7 +198,9 @@ img { max-width: 100%; display: block; }
 /* ---------- Hero ---------- */
 .hero {
   position: relative;
-  background: var(--ink);
+  background:
+    linear-gradient(rgba(20, 18, 14, .72), rgba(20, 18, 14, .85)),
+    url('../images/hero.jpg') center 30% / cover no-repeat;
   color: var(--paper);
   padding: 100px 0 130px;
   overflow: hidden;
