@@ -400,13 +400,43 @@ img { max-width: 100%; display: block; }
 /* ---------- Gallery ---------- */
 .gallery { padding: 96px 0; }
 .gallery h2 { font-size: 2.3rem; }
-.gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  margin-top: 40px;
+
+.marquee {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+  margin-top: 44px;
+  mask-image: linear-gradient(90deg, transparent 0, black 80px, black calc(100% - 80px), transparent 100%);
+  -webkit-mask-image: linear-gradient(90deg, transparent 0, black 80px, black calc(100% - 80px), transparent 100%);
 }
-.gallery-item { aspect-ratio: 4 / 3; }
+.marquee-track {
+  display: flex;
+  width: max-content;
+  gap: 20px;
+  padding: 0 20px;
+  animation: marquee-scroll 34s linear infinite;
+}
+.marquee:hover .marquee-track { animation-play-state: paused; }
+.marquee-track img {
+  flex: 0 0 auto;
+  width: 260px;
+  height: 340px;
+  object-fit: cover;
+  border-radius: 4px;
+  box-shadow: 0 8px 24px rgba(22, 50, 74, .12);
+}
+@keyframes marquee-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track { animation: none; overflow-x: auto; }
+}
+@media (max-width: 640px) {
+  .marquee-track img { width: 200px; height: 260px; }
+}
 
 /* ---------- Contact ---------- */
 .contact { padding: 96px 0; background: var(--pale-blue); }
