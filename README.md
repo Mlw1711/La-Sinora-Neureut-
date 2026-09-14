@@ -1,6 +1,8 @@
-# La Signora – Website-Entwurf
+# Barber Shop – Website-Entwurf
 
-Ein einfacher, einseitiger Gestaltungsvorschlag für die Ristorante Pizzeria La Signora in Karlsruhe-Neureut. Dient dazu, dem Restaurant direkt zu zeigen, wie eine moderne, übersichtliche Website aussehen könnte – auf Basis der bisherigen Seite ([la-signora5.webnode.page](https://la-signora5.webnode.page/)).
+Ein einfacher, einseitiger Gestaltungsvorschlag für einen Barbershop im "Golden Barber"-Stil (Schwarz/Gold), auf Basis des mitgelieferten Logos und Shop-Fotos.
+
+Hinweis: Dieses Repository war zuvor ein Entwurf für die Ristorante Pizzeria La Signora und wurde auf Wunsch komplett auf dieses neue Projekt umgebaut.
 
 ## Ansehen
 
@@ -16,26 +18,24 @@ python3 -m http.server 8000
 ## Struktur
 
 ```
-index.html          Startseite (Hero, Über uns, Speisekarte, Galerie, Kontakt)
+index.html          Startseite (Hero, Leistungen, Über uns, Galerie, Kontakt)
 impressum.html       Impressum (Entwurf)
 datenschutz.html     Datenschutzerklärung (Entwurf)
 css/style.css        Gesamtes Styling
 js/main.js           Mobile-Navigation, aktuelles Jahr im Footer
-images/               Bilder (aktuell Platzhalter, siehe images/README.md)
+images/               Bilder (siehe images/README.md)
 ```
 
 ## Was noch fehlt (bewusst offen gelassen)
 
-- **Echte Fotos** (Innenraum, Gerichte, Außenansicht) – siehe `images/README.md`
-- **Echte Speisekarte & Preise** – die bisherige Seite enthält keine; aktuell steht eine beispielhafte, klar gekennzeichnete Auswahl auf der Seite
-- **Vollständiges Impressum** – Name der/des Inhaber:in bzw. vertretungsberechtigten Person fehlt noch (siehe Hinweis auf `impressum.html`)
-- Ob die finale Seite ein- oder mehrseitig sein soll, Online-Reservierung etc.
+- **Hero-Foto** – das Innenraum-Foto des Shops soll als Hintergrund in den Hero, ist aber noch nicht hochgeladen
+- **Echter Name, Adresse, Telefon, E-Mail, Öffnungszeiten** – bislang nur "Barber Shop" laut Logo, keine weiteren Angaben vorhanden
+- **Echte Leistungen & Preise** – aktuell eine beispielhafte, klar gekennzeichnete Preisliste
+- **Weitere Fotos** für "Über uns" und Galerie
+- **Google-Maps-Karte** – folgt, sobald eine Adresse feststeht
+- **Vollständiges Impressum** – Inhaber:in-Name und Kontaktdaten fehlen noch
 
-## Übernommene Daten (von der bisherigen Website)
+## Übernommene Daten
 
-- Name: Ristorante Pizzeria La Signora
-- Adresse: Bärenweg 33, 76149 Neureut (Karlsruhe)
-- Telefon: 0721 707160
-- E-Mail: kacc1105@gmail.com
-- Öffnungszeiten: täglich 12:00–14:30 Uhr und 17:00–22:00 Uhr
-- Gegründet 1982 von Francesco Piadine
+- Logo: `images/barber-logo.png` (freigestellt)
+- Referenz-Look: Innenraum-Foto mit schwarzen Wänden, Waben-LED-Deckenlicht, goldenen Barbierstühlen
