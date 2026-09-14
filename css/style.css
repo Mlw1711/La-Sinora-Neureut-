@@ -138,17 +138,12 @@ img { max-width: 100%; display: block; }
 .hero {
   position: relative;
   background:
-    radial-gradient(ellipse at 50% 0%, rgba(190, 145, 67, .16), transparent 60%),
-    var(--ink);
+    linear-gradient(rgba(10, 9, 8, .62), rgba(10, 9, 8, .82)),
+    url('../images/hero.jpg') center 45% / cover no-repeat;
   color: var(--cream);
   padding: 120px 0;
   text-align: center;
   border-bottom: 1px solid var(--line);
-}
-.hero.has-photo {
-  background:
-    linear-gradient(rgba(10, 9, 8, .68), rgba(10, 9, 8, .84)),
-    var(--hero-photo, none) center 35% / cover no-repeat;
 }
 .hero-inner { max-width: 640px; margin: 0 auto; }
 .hero .eyebrow {
