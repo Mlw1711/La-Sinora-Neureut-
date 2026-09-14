@@ -1,4 +1,4 @@
-# Barber Shop – Website-Entwurf
+# Golden Style Barber – Website-Entwurf
 
 Ein einfacher, einseitiger Gestaltungsvorschlag für einen Barbershop im "Golden Barber"-Stil (Schwarz/Gold), auf Basis des mitgelieferten Logos und Shop-Fotos.
 
@@ -29,7 +29,7 @@ images/               Bilder (siehe images/README.md)
 ## Was noch fehlt (bewusst offen gelassen)
 
 - **Hero-Foto** – das Innenraum-Foto des Shops soll als Hintergrund in den Hero, ist aber noch nicht hochgeladen
-- **Echter Name, Adresse, Telefon, E-Mail, Öffnungszeiten** – bislang nur "Barber Shop" laut Logo, keine weiteren Angaben vorhanden
+- **Echter Name, Adresse, Telefon, E-Mail, Öffnungszeiten** – bislang nur "Golden Style Barber" laut Logo, keine weiteren Angaben vorhanden
 - **Echte Leistungen & Preise** – aktuell eine beispielhafte, klar gekennzeichnete Preisliste
 - **Weitere Fotos** für "Über uns" und Galerie
 - **Google-Maps-Karte** – folgt, sobald eine Adresse feststeht
