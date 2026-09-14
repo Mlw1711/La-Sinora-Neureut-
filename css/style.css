@@ -111,9 +111,9 @@ img { max-width: 100%; display: block; }
   align-items: center;
   justify-content: space-between;
   gap: 24px;
-  padding: 10px 0;
+  padding: 14px 0;
 }
-.logo img { height: 46px; width: auto; }
+.logo img { height: 68px; width: auto; }
 
 .main-nav { display: flex; gap: 28px; }
 .main-nav a {
@@ -137,15 +137,27 @@ img { max-width: 100%; display: block; }
 /* ---------- Hero ---------- */
 .hero {
   position: relative;
-  background:
-    linear-gradient(rgba(10, 9, 8, .62), rgba(10, 9, 8, .82)),
-    url('../images/hero.jpg') center 45% / cover no-repeat;
   color: var(--cream);
   padding: 120px 0;
   text-align: center;
   border-bottom: 1px solid var(--line);
+  overflow: hidden;
 }
-.hero-inner { max-width: 640px; margin: 0 auto; }
+.hero-media {
+  position: absolute;
+  inset: 0;
+  background: url('../images/hero.jpg') center 42% / cover no-repeat;
+  filter: grayscale(.4) sepia(.35) saturate(1.5) contrast(1.15) brightness(.7);
+  transform: scale(1.03);
+}
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 50% 15%, rgba(190, 145, 67, .22), transparent 55%),
+    linear-gradient(180deg, rgba(8, 7, 6, .58), rgba(8, 7, 6, .9));
+}
+.hero-inner { position: relative; z-index: 1; max-width: 640px; margin: 0 auto; }
 .hero .eyebrow {
   text-transform: uppercase; letter-spacing: .3em; font-size: .78rem;
   font-weight: 600; color: var(--gold); margin-bottom: 1.2em;
